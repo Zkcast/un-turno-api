@@ -1,0 +1,112 @@
+[
+    {
+        "id": "28cdd589-1275-4c79-a9c7-62e86b2c6bf0",
+        "responsible_name": "Santiago",
+        "email": "santiago@example.com",
+        "password": "@Pass123",
+        "company_name": "Turno",
+        "address": "Calle 123",
+        "phone": 123456789,
+        "image": "",
+        "users": []
+    },
+    {
+        "id": "f190e770-3d68-4f23-9d38-43d1275ad3a4",
+        "responsible_name": "Lucia",
+        "email": "lucia@example.com",
+        "password": "@Pass123",
+        "company_name": "SaludYA",
+        "address": "Av. Siempre Viva 742",
+        "phone": 111222333,
+        "image": "",
+        "users": []
+      },
+      {
+        "id": "1dbe4f8a-5586-4c18-a2e4-209e7b22244d",
+        "responsible_name": "Carlos",
+        "email": "carlos@example.com",
+        "password": "@Pass123",
+        "company_name": "Clinica Norte",
+        "address": "Calle Falsa 456",
+        "phone": 222333444,
+        "image": "",
+        "users": []
+      },
+      {
+        "id": "2f457ed0-9aa0-419d-a4de-b4172ebf2d52",
+        "responsible_name": "Valentina",
+        "email": "valentina@example.com",
+        "password": "@Pass123",
+        "company_name": "MediPlus",
+        "address": "Diagonal Sur 101",
+        "phone": 333444555,
+        "image": "",
+        "users": []
+      },
+      {
+        "id": "e3b0b78f-6eb4-41a1-9966-9a13aaf33e8a",
+        "responsible_name": "Facundo",
+        "email": "facundo@example.com",
+        "password": "@Pass123",
+        "company_name": "TurnoMax",
+        "address": "Av. Corrientes 200",
+        "phone": 444555666,
+        "image": "",
+        "users": []
+      },
+      {
+        "id": "de7685ef-8791-47f5-90c0-80529242e589",
+        "responsible_name": "Camila",
+        "email": "camila@example.com",
+        "password": "@Pass123",
+        "company_name": "Salud Vital",
+        "address": "Pasaje Los Andes 80",
+        "phone": 555666777,
+        "image": "",
+        "users": []
+      },
+      {
+        "id": "9a134ca5-48ef-4a8a-9986-939ec0c2bc4c",
+        "responsible_name": "Matias",
+        "email": "matias@example.com",
+        "password": "@Pass123",
+        "company_name": "ClinicGO",
+        "address": "Camino del Sol 12",
+        "phone": 666777888,
+        "image": "",
+        "users": []
+      },
+      {
+        "id": "b9f0f85a-0d4f-44b5-a5a1-ea4f54a2c3e0",
+        "responsible_name": "Sofia",
+        "email": "sofia@example.com",
+        "password": "@Pass123",
+        "company_name": "Vida Sana",
+        "address": "Av. Libertador 900",
+        "phone": 777888999,
+        "image": "",
+        "users": []
+      },
+      {
+        "id": "f6d5b8d4-0168-4f09-b943-6c4ad738efb6",
+        "responsible_name": "Nicolas",
+        "email": "nicolas@example.com",
+        "password": "@Pass123",
+        "company_name": "CheckSalud",
+        "address": "Belgrano 321",
+        "phone": 888999000,
+        "image": "",
+        "users": []
+      },
+      {
+        "id": "ffbfecf0-fc11-469a-9441-e23e76fa8b9c",
+        "responsible_name": "Julieta",
+        "email": "julieta@example.com",
+        "password": "@Pass123",
+        "company_name": "Turnos Express",
+        "address": "Montevideo 55",
+        "phone": 999000111,
+        "image": "",
+        "users": []
+      }
+]

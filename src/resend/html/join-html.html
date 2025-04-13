@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invitación</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #0a0e17;
+        color: #ffffff;
+        margin: 0;
+        padding: 0;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+      }
+
+      /* Contenedor principal */
+      .container {
+        background-color: #0a0e17;
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 40px 20px;
+        text-align: center;
+      }
+
+      /* Logo */
+      .logo {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 40px;
+        color: #ffffff;
+      }
+
+      /* Encabezados */
+      h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+        color: #ffffff;
+        line-height: 1.2;
+        font-weight: bold;
+      }
+
+      /* Párrafos */
+      p {
+        font-size: 16px;
+        line-height: 1.6;
+        margin-bottom: 20px;
+        color: #ffffff;
+      }
+
+      /* Botón principal */
+      .button-primary {
+        display: inline-block;
+        background-color: #4285f4;
+        color: white !important; /* !important para clientes de correo que sobrescriben estilos */
+        text-decoration: none;
+        padding: 12px 30px;
+        border-radius: 4px;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: 0;
+        -webkit-transition: background-color 0.3s;
+        transition: background-color 0.3s;
+      }
+
+      /* Botón secundario */
+      .button-secondary {
+        display: inline-block;
+        background-color: transparent;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        color: white !important;
+        text-decoration: none;
+        padding: 12px 30px;
+        border-radius: 4px;
+        font-weight: bold;
+        margin-left: 10px;
+        -webkit-transition: border-color 0.3s;
+        transition: border-color 0.3s;
+      }
+
+      /* Pie de página */
+      .footer {
+        margin-top: 60px;
+        font-size: 12px;
+        color: rgba(255, 255, 255, 0.6);
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        padding-top: 20px;
+      }
+
+      /* Estilos adicionales para mejorar compatibilidad */
+      /* table {
+  border-collapse: collapse;
+  mso-table-lspace: 0pt;
+  mso-table-rspace: 0pt;
+} */
+
+      img {
+        -ms-interpolation-mode: bicubic;
+        border: 0;
+        height: auto;
+        line-height: 100%;
+        outline: none;
+        text-decoration: none;
+      }
+
+      /* Estilos para dispositivos móviles */
+      @media only screen and (max-width: 480px) {
+        .container {
+          width: 100% !important;
+          padding: 20px 10px;
+        }
+
+        h1 {
+          font-size: 28px;
+        }
+
+        .button-secondary {
+          margin-left: 0;
+          margin-top: 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">reservasYa</div>
+
+      <h1>¡Hola ${name}!</h1>
+
+      <p>${company_name} te invita a unirte a su empresa.</p>
+
+      <p>
+        Simplifica la gestión de tus reservas con nuestra plataforma intuitiva.
+        Reservas en tiempo real, recordatorios automáticos y mucho más.
+      </p>
+
+      <div>
+        <a href="${url}/join/${token}" class="button-primary">Unirse ahora</a>
+      </div>
+
+      <div class="footer">
+        <p>
+          Si tienes problemas con el botón, copia y pega este enlace en tu
+          navegador:
+        </p>
+        <p>${url}/join/${token}</p>
+      </div>
+    </div>
+  </body>
+</html>

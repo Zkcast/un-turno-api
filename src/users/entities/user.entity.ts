@@ -1,8 +1,9 @@
+import { Company } from 'src/company/entities/company.entity';
 import {
   Column,
   CreateDateColumn,
   Entity,
-  OneToMany,
+  ManyToMany,
   PrimaryGeneratedColumn,
   UpdateDateColumn,
 } from 'typeorm';
@@ -27,7 +28,7 @@ export class User {
   @Column({ type: 'int', unique: true, nullable: true })
   phone: number;
 
-  @Column({ type: 'text' })
+  @Column({ type: 'text', select: false })
   password: string;
 
   @CreateDateColumn()
@@ -35,4 +36,7 @@ export class User {
 
   @UpdateDateColumn()
   updated_at: Date;
+
+  @ManyToMany(() => Company, (company) => company.users)
+  companies: Company[];
 }

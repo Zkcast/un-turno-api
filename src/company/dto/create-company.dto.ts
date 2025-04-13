@@ -1,38 +1,24 @@
-import { PickType } from '@nestjs/mapped-types';
 import {
   IsEmail,
   IsNotEmpty,
   IsNumber,
-  IsOptional,
   IsString,
   IsStrongPassword,
   Length,
 } from 'class-validator';
 import { Match } from 'src/custom-validators/match.decorator';
 
-export class CreateUserDto {
+export class CreateCompanyDto {
   @IsNotEmpty()
   @IsString()
   @Length(3, 20)
-  name: string;
-
-  @IsNotEmpty()
-  @IsString()
-  @Length(3, 20)
-  lastname: string;
-
-  @IsOptional()
-  @IsString()
-  image: string;
+  responsible_name: string;
 
   @IsNotEmpty()
   @IsEmail()
   email: string;
 
-  @IsOptional()
-  @IsNumber()
-  phone: number;
-
+  @IsNotEmpty()
   @IsStrongPassword(
     {
       minLength: 8,
@@ -48,11 +34,21 @@ export class CreateUserDto {
   )
   password: string;
 
-  @Match('password', { message: 'Password and Confirm Password do not match' })
+  @Match('password')
   confirmPassword: string;
+
+  @IsNotEmpty()
+  @IsString()
+  @Length(3, 20)
+  company_name: string;
+
+  @IsNotEmpty()
+  @IsString()
+  address: string;
+
+  @IsNotEmpty()
+  @IsNumber()
+  phone: number;
 }
 
-export class LoginUserDto extends PickType(CreateUserDto, [
-  'email',
-  'password',
-]) {}
+// export class LoginC

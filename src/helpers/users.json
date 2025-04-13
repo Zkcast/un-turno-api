@@ -1,0 +1,102 @@
+[
+    {
+        "id": "441cfc3b-71eb-4d29-a5e3-ab92839a54e4",
+        "name": "Nicolas",
+        "lastname": "Garcia",
+        "image": "",
+        "email": "nico@ga.com",
+        "phone": 123456789,
+        "password": "@Pass123",
+        "companies": []
+    },
+    {
+        "id": "a1f9b3e1-50f3-4b4e-b3a5-d6d1f9e6b0a1",
+        "name": "Lucia",
+        "lastname": "Martinez",
+        "image": "",
+        "email": "lucia.martinez@example.com",
+        "phone": 111222333,
+        "password": "@Pass123",
+        "companies": []
+      },
+      {
+        "id": "c4a0e2d5-0a7b-4b8c-b1de-13b2317e1c41",
+        "name": "Carlos",
+        "lastname": "Lopez",
+        "image": "",
+        "email": "carlos.lopez@example.com",
+        "phone": 222333444,
+        "password": "@Pass123",
+        "companies": []
+      },
+      {
+        "id": "5b8e171f-8b2a-4981-a57e-0c733e194308",
+        "name": "Mariana",
+        "lastname": "Rodriguez",
+        "image": "",
+        "email": "mariana.rod@example.com",
+        "phone": 333444555,
+        "password": "@Pass123",
+        "companies": []
+      },
+      {
+        "id": "8e3c21d1-b9e2-4899-8c36-0a2beed47e45",
+        "name": "Santiago",
+        "lastname": "Fernandez",
+        "image": "",
+        "email": "santi.fernandez@example.com",
+        "phone": 444555666,
+        "password": "@Pass123",
+        "companies": []
+      },
+      {
+        "id": "f91a564a-73b2-40fc-a10b-5a91b37c6b1b",
+        "name": "Valentina",
+        "lastname": "Gomez",
+        "image": "",
+        "email": "valen.gomez@example.com",
+        "phone": 555666777,
+        "password": "@Pass123",
+        "companies": []
+      },
+      {
+        "id": "7f3b9d27-4e10-4e89-aafd-e2c54a1b83f0",
+        "name": "Matias",
+        "lastname": "Diaz",
+        "image": "",
+        "email": "matias.diaz@example.com",
+        "phone": 666777888,
+        "password": "@Pass123",
+        "companies": []
+      },
+      {
+        "id": "e0d60e67-bfd9-4c79-85a3-b30efefbd1a0",
+        "name": "Camila",
+        "lastname": "Ruiz",
+        "image": "",
+        "email": "camila.ruiz@example.com",
+        "phone": 777888999,
+        "password": "@Pass123",
+        "companies": []
+      },
+      {
+        "id": "b7e2bc67-94c3-41f0-b58f-cfc9e3b347cb",
+        "name": "Facundo",
+        "lastname": "Alvarez",
+        "image": "",
+        "email": "facu.alvarez@example.com",
+        "phone": 888999000,
+        "password": "@Pass123",
+        "companies": []
+      },
+      {
+        "id": "29b90c88-f130-4de6-b66a-682474e457de",
+        "name": "Sofia",
+        "lastname": "Morales",
+        "image": "",
+        "email": "sofia.morales@example.com",
+        "phone": 999000111,
+        "password": "@Pass123",
+        "companies": []
+      }
+]
