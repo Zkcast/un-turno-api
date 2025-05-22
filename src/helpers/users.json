@@ -5,7 +5,7 @@
         "lastname": "Garcia",
         "image": "",
         "email": "nico@ga.com",
-        "phone": 123456789,
+        "phone": "123456789",
         "password": "@Pass123",
         "companies": []
     },
@@ -15,7 +15,7 @@
         "lastname": "Martinez",
         "image": "",
         "email": "lucia.martinez@example.com",
-        "phone": 111222333,
+        "phone": "111222333",
         "password": "@Pass123",
         "companies": []
       },
@@ -25,7 +25,7 @@
         "lastname": "Lopez",
         "image": "",
         "email": "carlos.lopez@example.com",
-        "phone": 222333444,
+        "phone": "222333444",
         "password": "@Pass123",
         "companies": []
       },
@@ -35,7 +35,7 @@
         "lastname": "Rodriguez",
         "image": "",
         "email": "mariana.rod@example.com",
-        "phone": 333444555,
+        "phone": "333444555",
         "password": "@Pass123",
         "companies": []
       },
@@ -45,7 +45,7 @@
         "lastname": "Fernandez",
         "image": "",
         "email": "santi.fernandez@example.com",
-        "phone": 444555666,
+        "phone": "444555666",
         "password": "@Pass123",
         "companies": []
       },
@@ -55,7 +55,7 @@
         "lastname": "Gomez",
         "image": "",
         "email": "valen.gomez@example.com",
-        "phone": 555666777,
+        "phone": "555666777",
         "password": "@Pass123",
         "companies": []
       },
@@ -65,7 +65,7 @@
         "lastname": "Diaz",
         "image": "",
         "email": "matias.diaz@example.com",
-        "phone": 666777888,
+        "phone": "666777888",
         "password": "@Pass123",
         "companies": []
       },
@@ -75,7 +75,7 @@
         "lastname": "Ruiz",
         "image": "",
         "email": "camila.ruiz@example.com",
-        "phone": 777888999,
+        "phone": "777888999",
         "password": "@Pass123",
         "companies": []
       },
@@ -85,7 +85,7 @@
         "lastname": "Alvarez",
         "image": "",
         "email": "facu.alvarez@example.com",
-        "phone": 888999000,
+        "phone": "888999000",
         "password": "@Pass123",
         "companies": []
       },
@@ -95,7 +95,7 @@
         "lastname": "Morales",
         "image": "",
         "email": "sofia.morales@example.com",
-        "phone": 999000111,
+        "phone": "999000111",
         "password": "@Pass123",
         "companies": []
       }

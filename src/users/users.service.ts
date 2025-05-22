@@ -21,7 +21,7 @@ export class UsersService {
     return await this.usersRepository.findOneUserByEmailRepository(email);
   }
 
-  async findOneUserByPhoneService(phone: number) {
+  async findOneUserByPhoneService(phone: string) {
     return await this.usersRepository.findOneUserByPhoneRepository(phone);
   }
 

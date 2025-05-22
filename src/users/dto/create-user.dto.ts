@@ -2,7 +2,6 @@ import { PickType } from '@nestjs/mapped-types';
 import {
   IsEmail,
   IsNotEmpty,
-  IsNumber,
   IsOptional,
   IsString,
   IsStrongPassword,
@@ -31,8 +30,8 @@ export class CreateUserDto {
   email: string;
 
   @IsOptional()
-  @IsNumber()
-  phone: number;
+  @IsString()
+  phone: string;
 
   @IsStrongPassword(
     {

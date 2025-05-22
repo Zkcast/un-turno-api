@@ -36,7 +36,7 @@ export class UsersRepository {
     return await this.userRepository.findOne({ where: { email } });
   }
 
-  async findOneUserByPhoneRepository(phone: number) {
+  async findOneUserByPhoneRepository(phone: string) {
     return await this.userRepository.findOne({ where: { phone } });
   }
 
