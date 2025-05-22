@@ -1,4 +1,4 @@
-import { Module } from '@nestjs/common';
+import { Module, OnModuleInit } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { UsersModule } from './users/users.module';
@@ -9,6 +9,7 @@ import { JwtModule } from '@nestjs/jwt';
 import { AuthModule } from './auth/auth.module';
 import { CompanyModule } from './company/company.module';
 import { ResendModule } from './resend/resend.module';
+import { UsersService } from './users/users.service';
 
 @Module({
   imports: [
@@ -39,4 +40,13 @@ import { ResendModule } from './resend/resend.module';
   controllers: [AppController],
   providers: [AppService],
 })
-export class AppModule {}
+export class AppModule implements OnModuleInit {
+  constructor(private readonly usersService: UsersService) {}
+
+  async onModuleInit() {
+    const users = await this.usersService.findAllUsersService();
+    if (users.length === 0) {
+      await this.usersService.seedUsersService();
+    }
+  }
+}

@@ -48,7 +48,8 @@ export class UsersRepository {
 
   async seedUsersRepository(users: User[]) {
     await this.userRepository.save(users);
-    console.log('users seeded');
+    console.log('Users seeded successfully');
+    return users;
   }
 
   async saveUserCompaniesRepository(user: User) {

@@ -1,6 +1,9 @@
 import { BadRequestException, Injectable } from '@nestjs/common';
 import { UsersRepository } from './users.repository';
 import { CompanyService } from 'src/company/company.service';
+import { User } from './entities/user.entity';
+import * as bcrypt from 'bcrypt';
+import * as usersMock from '../helpers/users.json';
 
 @Injectable()
 export class UsersService {
@@ -37,5 +40,17 @@ export class UsersService {
       throw new BadRequestException('User already joined to this company');
 
     return await this.usersRepository.joinUserCompanyRepository(user, company);
+  }
+
+  async seedUsersService() {
+    const users: User[] = await Promise.all(
+      usersMock.map(async (user) => ({
+        ...user,
+        password: await bcrypt.hash(user.password, 10),
+        created_at: new Date(),
+        updated_at: new Date(),
+      }))
+    );
+    return this.usersRepository.seedUsersRepository(users);
   }
 }
